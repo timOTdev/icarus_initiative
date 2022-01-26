@@ -5,11 +5,33 @@
 - Document Version 2021_10
 
 - Welcome to an unofficial developer resource collection.
-- Trying to update and trim document constantly to the best resources.
+- Constantly updating and trimmingto the best resources.
 - Please tweet `@icarussquadron` for comments/suggestions/corrections. You're appreciated!
 - Other questions & comments? Holler at admins on [Icarus Discord](https://discord.gg/D3kx72wJyv).
 
 ---
+
+- [Create a Solana dApp from scratch (Loris Leiva)](https://lorisleiva.com/create-a-solana-dapp-from-scratch)
+- [Using PDAs and SPL Token in Anchor (Daniel Pyrathon)](https://medium.com/@pirosb3/using-pdas-and-spl-token-in-anchor-and-solana-df05c57ccd04)
+- [DAOs, A Canon by Future a16z](https://future.a16z.com/dao-canon/)
+- [Gaby's Web3 Readings by Gaby Goldberg](https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b?v=c02511c4230c44ce9a1a03c9757da524)
+- [Web3 Blockchain Fundamentals MOOC](https://www.youtube.com/playlist?list=PLxVihxZC42nF_MCN9PTvZMIifRjx9cZ2J)
+- pencilflip.sol Solana Development Twitter Threads
+  - [Solana Accounts Explained](https://twitter.com/pencilflip/status/1452402100470644739)
+  - [Solana Accounts Breakdown](https://twitter.com/pencilflip/status/1455678830262173697?s=21)
+  - [SPL Token Swap Program](https://twitter.com/pencilflip/status/1459631153082552320?s=21)
+  - [Program Derived Addresses](https://twitter.com/pencilflip/status/1455948263853600768?s=21)
+- [DAO Legal Framework by a16z](https://a16z.com/wp-content/uploads/2021/10/DAO-Legal-Framework-Jennings-Kerr10.19.21-Final.pdf)
+- [Solana.wiki Account Storage](https://solana.wiki/zh-cn/docs/account-model/#account-storage)
+- [Explore Solana blockchain with Rust, Part 1 - Create Account by Rozky Notes](https://www.wizzairprices.com/blog/crypto/blockchain/solana/explore-solana-blockchain-with-rust-part-1.html)
+- [Starting with Solana, Part 1 by Daniel Imfeld](https://imfeld.dev/writing/starting_with_solana_part01)
+- [Starting with Solana, Part 2 - Anchor's Account Macros by Ddaniel Imfeld](https://imfeld.dev/writing/starting_with_solana_part02)
+- [Starting with Solana, Part 3 - Testing a Solana Program](https://imfeld.dev/writing/starting_with_solana_part03)
+- [Starting with Solana, Part 4 - A Todo List with Rewards](https://imfeld.dev/writing/starting_with_solana_part04)
+- [How to audit Solana smart contracts Part 1: a systematic approach by coinmonks](https://medium.com/coinmonks/how-to-audit-solana-smart-contracts-part-1-a-systematic-approach-56a434f6c9ed)
+- [Solana Security Blog by Soteria](https://blog.soteria.dev/)
+- [Building an SPL-token-faucet on Solana by Maxim Piessen](https://medium.com/credix/building-an-spl-token-faucet-on-solana-2b8a07d364ff)
+- [Heavy Duty Builders](https://heavyduty.builders/)
 
 ## Learning Solana/Rust Battle Plan (Quick Start)
 
@@ -26,22 +48,26 @@
   - Start with [Figment's Solana Protocol](https://learn.figment.io/protocols/solana).
   - Read [Solana Summer](https://www.notboring.co/p/solana-summer) for general Solana ecosystem.
   - Read [What's the deal with Solana](https://2501babe.github.io/posts/solana101.html) for some technicals.
-  - Learn some Rust. It's going to start popping up.
+  - Like building projects?
+    - [Beginner Projects](https://github.com/icarus-initiative/icarus_initiative/blob/main/projects.md)
+    - [StartonSolana](https://www.startonsolana.com/)
+    - [Solana Cookbook](https://solanacookbook.com/)
+  - Learning Rust
   - Like videos? Watch [Let's Get Rusty](https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8).
   - Like CliffNotes? Check [Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/).
   - Like exercises? Do Rustlings on [rust-lang.org](https://www.rust-lang.org/learn) or [Codewars](https://www.codewars.com/).
   - Like books? Read [Learn Rust book](https://doc.rust-lang.org/book/).
   - Like group learning? Check [Learning Communities](https://github.com/icarus-initiative/icarus_initiative/blob/main/resources.md).
-  - Like building projects? Check [Beginner Projects](https://github.com/icarus-initiative/icarus_initiative/blob/main/projects.md).
   - Want general blockchain? Visit [Berkeley Courses](https://blockchain.berkeley.edu/).
     - Try Fundamental or Developer Decal.
 
 - Intermediate Level:
 
-  - [A Gentle Introduction to Solana (Kirima)](https://kirima.vercel.app/post/gentleintrosolana)
-  - [Learning How to Build on Solana (Brian Friel)](https://www.brianfriel.xyz/learning-how-to-build-on-solana/)
-  - [Understanding Program Derived Addresses (Brian Friel)](https://www.brianfriel.xyz/understanding-program-derived-addresses/)
-  - [The Complete Guide to Full Stack Solana Development (Dabit)](https://dev.to/dabit3/the-complete-guide-to-full-stack-solana-development-with-react-anchor-rust-and-phantom-3291)
+  - [A Gentle Introduction to Solana by Kirima](https://kirima.vercel.app/post/gentleintrosolana)
+  - [Learning How to Build on Solana by Brian Friel](https://www.brianfriel.xyz/learning-how-to-build-on-solana/)
+  - [Understanding Program Derived Addresses by Brian Friel](https://www.brianfriel.xyz/understanding-program-derived-addresses/)
+  - [Creating Tokens on Solana by Brian Friel](https://www.brianfriel.xyz/how-to-create-a-token-on-solana/)
+  - [The Complete Guide to Full Stack Solana Development by Nader Dabit](https://dev.to/dabit3/the-complete-guide-to-full-stack-solana-development-with-react-anchor-rust-and-phantom-3291)
 
 - Advanced Level:
 
@@ -183,8 +209,9 @@
 ### Smart Contracts Track (FYI Solana Smart Contracts are called Programs)
 
 - [What's the deal with Solana (Hana)](https://2501babe.github.io/posts/solana101.html)
-- [Learning How to Build on Solana (Brianfriel)](https://www.brianfriel.xyz/learning-how-to-build-on-solana/)
-- [Understanding Program Derived Addresses (Brianfriel)](https://www.brianfriel.xyz/understanding-program-derived-addresses/)
+- [Learning How to Build on Solana (Brian Friel)](https://www.brianfriel.xyz/learning-how-to-build-on-solana/)
+- [Understanding Program Derived Addresses (Brian Friel)](https://www.brianfriel.xyz/understanding-program-derived-addresses/)
+- [Creating Tokens on Solana (Brian Friel)](https://www.brianfriel.xyz/how-to-create-a-token-on-solana/)
 - [Programming on Solana: An Introduction (Paulx)](https://paulx.dev/blog/2021/01/14/programming-on-solana-an-introduction/)
 - [The Complete Guide to Full Stack Solana Development with React, Anchor, Rust, and Phantom (Dabit)](https://dev.to/dabit3/the-complete-guide-to-full-stack-solana-development-with-react-anchor-rust-and-phantom-3291)
 - [Create a fullstack mail dApp on Solana (Figment)](https://learn.figment.io/tutorials/create-a-fullstack-mail-dapp-on-solana)
@@ -204,10 +231,10 @@
 
 - [A Simple Solana Dapp Tutorial (Voting Dapp by Smith MCF)](https://smith-mcf.medium.com/a-simple-solana-dapp-tutorial-6dedbdf65444)
 - [Solana Dapp Tutorial - Demo 1.6 (Voting Dapp)](https://odysee.com/@MCF:0/Solana-Simple-Dapp-Tutorial-Deploy-Demo:2)
-- [Learning How to Build on Solana (BFriel)](https://www.brianfriel.xyz/learning-how-to-build-on-solana/)
+- [Learning How to Build on Solana (Brian Friel)](https://www.brianfriel.xyz/learning-how-to-build-on-solana/)
   - [Dapp](https://www.pbvote.com/)
   - [Dapp Repo](https://github.com/bfriel/crunchy-vs-smooth)
-- [Understanding Program Derived Addresses (BFriel)](https://www.brianfriel.xyz/understanding-program-derived-addresses/)
+- [Understanding Program Derived Addresses (Brian Friel)](https://www.brianfriel.xyz/understanding-program-derived-addresses/)
   - [Dapp Repo V2](https://github.com/bfriel/crunchy-vs-smooth-v2)
 
 ### NFTs Track
