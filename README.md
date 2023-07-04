@@ -1,4 +1,6 @@
-# Icarus Initiative - Readme
+# 0173_icarus_initiative_organization_core
+
+## Icarus Initiative - Readme
 
 <img src="./src/banner.jpg" alt="Banner" width="1000"/>
 
